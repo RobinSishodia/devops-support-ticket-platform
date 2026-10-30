@@ -12,6 +12,7 @@ Built and run on Ubuntu 24.04 LTS on AWS EC2.
 - Disk space using `df -h /`
 - Memory usage using `free -h`
 - Uptime and load averages using `uptime`
+- Report generation time in UTC using `date -u`
 
 ## Run the script
 
@@ -36,4 +37,4 @@ Bash scripting, and Git commits and pushes.
 
 ## Next improvements
 
-Add report timestamps and automatic disk-space warnings.
+Add automatic disk-space warnings.

@@ -1,7 +1,8 @@
 #!/bin/bash
 
 echo "=== SERVER HEALTH REPORT ==="
-
+echo "Generated at:"
+date -u
 echo "Disk space:"
 df -h /
 
